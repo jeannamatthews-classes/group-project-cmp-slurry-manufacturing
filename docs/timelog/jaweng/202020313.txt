@@ -1,0 +1,23 @@
+Date: 3/13/2025
+Time (minutes): ~60 minutes
+Description:
+I made the layout needed for the assignement "Additions to Github repos and Time Tracking Materials. These included:
+
+1. Making the doc directory
+2. Making the sub-directory --> planning and timelog
+3. Made sub-directory for planning and added what we did for "20250303"
+4. Made sub-directories within timelog. I have added my sub-directory and will tell the rest of the members to add theirs.
+
+P.S. For the sub-directory "20250303", it would include, 5 files in total. Below desribes what each one is:
+
+1. 20250303_displayed.md --> A viewable thing on Github which gives the overview of what we did during that day
+2. Initial_Gantt.png --> A screenshot of the Gantt chart which is used in 20250303_displayed.md
+3. Initial_Brainstorming.png --> A screenshot of our groups brainstorming
+4. CMP GANTT Chart --> A .pdf version of the Gantt chart
+5. GANTT Chart Tasks --> A .pdf version of answering the 7 questions. (Not the same copy as the we handed it, but it was on the Google Sheet and we discussed about it)
+
+
+Date: 3/13/2025
+Time (minutes): ~15 minutes
+Description:
+Made a README.md talking about what each member needs to do on GitHub.

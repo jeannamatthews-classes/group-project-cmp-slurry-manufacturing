@@ -15,7 +15,7 @@
 
 3) **Submit a PDF version of your initial schedule with half week intervals. It should show the critical path, dependencies among subtasks,  who will do what, etc.**
     
-    Link to PDF:
+    Can get from .
 
 
 4) **Propose a plan for updating the GANTT chart each week. Will you meet to update it collectively? Will you identify one person who will be in charge of actually updating the GANTT chart and exporting a PDF version along with some high level notes about how it has changed (more subtasks added, some subtasks completed, critical path slipping, new estimates)?**

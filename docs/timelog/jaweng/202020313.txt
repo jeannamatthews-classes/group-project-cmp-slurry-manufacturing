@@ -1,5 +1,5 @@
 Date: 3/13/2025
-Time (minutes): ~60 minutes
+Time (minutes): ~75 minutes
 Description:
 I made the layout needed for the assignement "Additions to Github repos and Time Tracking Materials. These included:
 

@@ -6,7 +6,7 @@
 # Answers to other questions
 1) **Take a picture/screenshot of your white board, post it notes, Google doc, or whatever you use for initial brainstorming.**
     
-    ![Initial Brainstorming / Tasks](Initial_Brainstorming)
+    ![Initial Brainstorming / Tasks](Initial_Brainstorming.png)
 
 2) **Tell me what GANTT chart tracking software you've chose to use (Excel, Google sheets, dotProject, etc.)**
     
@@ -15,7 +15,7 @@
 
 3) **Submit a PDF version of your initial schedule with half week intervals. It should show the critical path, dependencies among subtasks,  who will do what, etc.**
     
-    Can get from .
+    Can get from "CMP GANTT chart.pdf".
 
 
 4) **Propose a plan for updating the GANTT chart each week. Will you meet to update it collectively? Will you identify one person who will be in charge of actually updating the GANTT chart and exporting a PDF version along with some high level notes about how it has changed (more subtasks added, some subtasks completed, critical path slipping, new estimates)?**

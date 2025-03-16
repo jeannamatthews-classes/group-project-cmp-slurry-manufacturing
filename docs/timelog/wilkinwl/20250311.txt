@@ -1,0 +1,5 @@
+DATE, TIME(MINUTES),DESCRIPTION
+20250206, 600, 'Gather, recording, formatting user requirements'
+20250308,180,'GITHUB pages research and attempted demo'
+20250310, 360, 'Understanding and messing with the excel document'
+20250311, 60, 'Made class Diagram'

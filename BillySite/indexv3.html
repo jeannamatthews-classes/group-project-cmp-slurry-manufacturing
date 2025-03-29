@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CMP Slurry</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="d-flex align-items-center bg-primary-custom">
+        <img id='ClarksonLogo' src='Green Clarkson Shield.png' class="h-100">
+        <div class='header-title flex-grow-1 ps-3'>Ceria Particle Synthesis Inventory Data Entry</div>
+    </header>
+    
+    <nav class="nav nav-pills p-3 bg-light">
+        <a class="btn btn-yellow active" href="#">Required Information</a>
+        <a class="btn btn-yellow" href="#">Input</a>
+        <a class="btn btn-yellow" href="#">Results</a>
+        <a class="btn btn-yellow" href="#">Help</a>
+        <a class="btn btn-yellow" href="#">State Output Emissions</a>
+        <a class="btn btn-yellow" href="#">Global Temperatures</a>
+        <a class="btn btn-yellow" href="#">All_equipment</a>
+        <a class="btn btn-yellow" href="#">Solvents</a>
+        <a class="btn btn-yellow" href="#">Precursors Chemicals</a>
+    </nav>
+    
+    <div class="container mt-4">
+        <form>
+            <!-- Section 1.1 -->
+            <div class="section mb-4">
+                <h2 class="mb-3">1.1 Synthesis Parameters</h2>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Reagent Concentration (M)</label>
+                        <input type="number" class="form-control" step="0.01" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Reaction Temperature (°C)</label>
+                        <input type="number" class="form-control" required>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Mixing Duration (hours)</label>
+                        <input type="number" class="form-control" step="0.5" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 1.2 -->
+            <div class="section mb-4">
+                <h2 class="mb-3">1.2 Particle Characterization</h2>
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label class="form-label">Average Particle Size (nm)</label>
+                        <input type="number" class="form-control" step="0.1" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">PDI Value</label>
+                        <input type="number" class="form-control" step="0.01" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Zeta Potential (mV)</label>
+                        <input type="number" class="form-control" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 1.3 -->
+            <div class="section mb-4">
+                <h2 class="mb-3">1.3 Quality Control</h2>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">pH Measurement</label>
+                        <input type="number" class="form-control" step="0.1" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Conductivity (µS/cm)</label>
+                        <input type="number" class="form-control" required>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Additional Notes</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center mt-5">
+                <button type="submit" class="btn-yellow btn-lg px-5">Submit Data</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

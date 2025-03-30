@@ -12,24 +12,26 @@ body {
 }
 
 /* Basic formatting for main stuff */
-h1{
+header{
+    background-color: #004e42 !important;
     text-align: center;
-    color: #333;
+    color: white;
     font-family: Arial, sans-serif;
-    margin-left: 220px; /* Adjusted to account for navbar width */
+    padding: 20px; /* Padding around the header */
+    margin-left: 200px; /* Adjusted to account for navbar width */
+    /* Ensures header is not hidden behind the navbar */
 }
 
 /* Formatting for the navbar */
 .navbar{
-    background-color: hsl(0, 0%, 25%);
-    color: white;
+    background-color: #004e42 !important;
     padding: 10px;
     font-family: Arial, sans-serif;
     font-size: 18px;
     position: fixed;
     top: 0;
     left: 0;
-    width: 200px;
+    width: 180px;
     height: 100%;
 }
 
@@ -42,7 +44,7 @@ h1{
 
 /* .navbar a formatting */
 .navbar a{
-    color: white;
+    color: white; /* Text color for links */
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -51,7 +53,7 @@ h1{
 
 /* .navbar a:hover formatting */
 .navbar a:hover{
-    background-color: hsl(0, 0%, 10%);
+    background-color: hsl(118, 100%, 6%);
 }
 
 /* .navbar li formatting */
@@ -75,8 +77,8 @@ h1{
 }
 
 footer{
-    background-color: hsl(0, 0%, 25%);
-    color: white;
+    background-color: #004e42 !important;
+    color: white; /* Change to a color that contrasts with the background */
     text-align: center;
     padding: 10px;
     position: fixed;

@@ -46,7 +46,7 @@ header{
 .navbar a{
     color: white; /* Text color for links */
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     display: block;
     text-align: center;
 }

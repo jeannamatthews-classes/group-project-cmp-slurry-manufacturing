@@ -1,3 +1,0 @@
-DATE, TIME(MINUTES), Description
-20250323, 300, 'worked on and updated repository with html for site with file index.html'
-20250323, 300,'worked on and updated repository with css for site with file styles.css'

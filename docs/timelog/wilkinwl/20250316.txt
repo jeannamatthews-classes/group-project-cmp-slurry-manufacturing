@@ -1,3 +1,0 @@
-DATE, TIME(MINUTES), Description
-20250313, 120, 'Made activity diagram for project design'
-20250315, 3,'Started writing html/css files'

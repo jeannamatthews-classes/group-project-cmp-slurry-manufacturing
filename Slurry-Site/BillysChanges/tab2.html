@@ -28,10 +28,10 @@
     <!-- Main content area for this tab -->
     <main class="maincontent">
         <h2>Start Process</h2>
-        <p>would need to come back and add things to this</p>
-        <div>
+       <!-- <p>would need to come back and add things to this</p> -->
+        <div><!-- Start of section 1-->
         
-        <h2>Process Information</h3>
+        <h3>Process Information</h3>
         <select name="cars" id="cars">
           <option value="precursorSynthesis">Precursor Synthesis</option>
           <option value="calcination">Calcination</option>
@@ -40,114 +40,204 @@
           <option value="Washing">Washing</option>
           <option value="Drying">Drying</option>
 	</select>
-        </div>
-        <!-- Section 1.1 -->
-            <div>
-                <h2>1.1 Precursor Materials</h2>
-                <table style="width:100%">
+	<h3>Input Materials</h3>
+	<h4>1.1 Precursor Materials</h4>
+        <table style="border: 1px solid black">
   		<tr>
-    			<td></td>
-   		        <td>Chemical Name</td>
-    			<td>Chemical Formula</td>
-                        <td>Quantity(kg)</td>
-			<td>Final Chemical Formula</td>
-			<td>Stoichiometic Ratio(Final:Inital)</td>
-			<td>MAximum Obtainable Product(Kg)</td>
-  		</tr>
-  		<tr>
-    			<td>Precursor Chemical 1:</td>
-   		        <td><input type='text'></td
-    			<td><input type='text'></td>
-                        <td><input type='text'></td>
-			<td><input type='text'></td>
-			<td><input type='text'></td>
-			<td><input type='text'></td>
-  		</tr>
+			<td></td>
+			<td>Chemical Name</td>
+			<td>Chemical Formula</td>
+            <td>Quantity(kg)</td>
+            <td>Final Chemical formula</td>
+            <td>Stoichometic Ration(Final:initial)</td>
+            <td>Maximum Obtainable Product(kg)</td>
+		</tr>
 		<tr>
-    			<td>Precursor Chemical 2</td>
-   		        <td><input type='text'></td
-    			<td><input type='text'></td>
-                        <td><input type='text'></td>
-			<td><input type='text'></td>
-			<td><input type='text'></td>
-			<td><input type='text'></td>
-  		</tr>
-		</table>
-            </div>
-        
-        </div>
-        <!-- Section 1.2 -->
-            <div>
-                <h2>1.2 Solvents</h2>
-               <table style="width:100%">
-  		<tr>
-    			<td></td>
-   		        <td>Choose Solvent</td>
-    			<td>Enter Solvent</td>
-                </tr>
-  		<tr>
-    			<td>Solvent 1:</td>
-   		        <td><input type='text'></td
-    			<td><input type='text'></td>
-  		</tr>
+			<td>Precursor Chemical 1:</td>
+			<td> <input type="text" ></td>
+			<td><input type="text" ></td>
+            <td><input type="text" ></td>
+            <td><input type="text" ></td>
+            <td><input type="text" ></td>
+            <td><input type="text" ></td>
+		</tr>
 		<tr>
-    			<td>Solvent 2:</td>
-   		        <td><input type='text'></td
-    			<td><input type='text'></td>
-  		</tr>
+			<td>Precursor Chemical 2:</td>
+			<td><input type="text" ></td>
+			<td><input type="text" ></td>
+            <td><input type="text" ></td>
+            <td><input type="text" ></td>
+            <td><input type="text" ></td>
+            <td><input type="text" ></td>
+		</tr>
 		</table>
-            </div>
+    <h4>1.2 Solvents</h4> 
+    <table style="border: 1px solid black">
+        <tr>
+          <td></td>
+          <td>Choose Solvent</td>
+          <td>Enter Solvent (Quantity(L or Kg))</td>
+          
+      </tr>
+      <tr>
+          <td>Solvent 1:</td>
+          <td> <input type="text" ></td>
+          <td><input type="text" ></td>
+          
+      </tr>
+      <tr>
+          <td>Solvent 2:</td>
+          <td><input type="text" ></td>
+          <td><input type="text" ></td>
+          
+      </tr>
+      </table>
+      <h4>1.3 Water</h4> 
+    <table style="border: 1px solid black">
+        <tr>
+          <td>Water used for reaction</td>
+          <td>Cleaning/Washing Particle</td>
+          <td>Tool Washing water</td>
+          
+      </tr>
+      <tr>
+          <td>Solvent 1:</td>
+          <td> <input type="text" ></td>
+          <td><input type="text" ></td>
+          
+      </tr>
+      <tr>
+          <td>Solvent 2:</td>
+          <td><input type="text" ></td>
+          <td><input type="text" ></td>
+          
+      </tr>
+      </table>
+    </div><!-- End of section 1-->
+    <div>
+        <h3>Process Time Information</h3>
+        <table style="border: 1px solid black">
+            <tr>
+              <td></td>
+              <td>Replace with your Process Time</td>
+          </tr>
+          <tr>
+              <td>Process Time (h):</td>
+              <td> <input type="text" ></td>
+          </tr>
+          <tr>
+            <td>Typical Process Time Range (h):</td>
+            <td> <input type="text" ></td>
+        </tr>
+        <tr>
+            <td>Time Basis:</td>
+            <td> <input type="text" ></td>
+        </tr>
+        <tr>
+            <td>Warmup Time(h):</td>
+            <td> <input type="text" ></td>
+        </tr>
+        <tr>
+            <td>Tool Idle Time (h):</td>
+            <td> <input type="text" ></td>
+        </tr>
+          </table>
+        <h4>Equipment Power Information</h4>
+        <table style="border: 1px solid black">
+            <tr>
+              <td></td>
+              <td>Minimum</td>
+              <td>Maximum</td>
+              <td>Average</td>
+            </tr>
+            <tr>
+                <td>Power Rating (kW)</td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>Idle Power Consumption (kWh)</td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>Efficiency(%)</td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>Typical Power Active Consumption (kW)</td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+          </table>
+          <h4>Process Conditions</h4>
+        <table style="border: 1px solid black">
+            <tr>
+              <td></td>
+              <td>Minimum</td>
+              <td>Maximum</td>
+              <td>Average</td>
+            </tr>
+            <tr>
+                <td>Operating Temperature (C)</td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>Operating Pressure (atm)</td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+                <td><input type="text" ></td>
+            </tr>
+            
+          </table>
+          <h4>Equipment</h4>
+          <table style="border: 1px solid black">
+              <tr>
+                <td>Production Volume per Batch (L)</td>
+                <td><input type="text" ></td>
+                <td>based on all the Input materials (1L=~1Kg)</td>
+              </tr>
+              <tr>
+                  <td>Equipment Volume(L)</td>
+                  <td><input type="text" ></td>
+                  <td>Replace with your volume</td>
+              </tr>
+              <tr>
+                  <td>Equipment Volume(L)</td>
+                  <td><input type="text" ></td>
+                  <td>Volume Utilzed fraction is Production:Equipment Volume</td>
+              </tr>
+              
+            </table>
+            <h3>1.3 Energy Consumption Estimation</h3>
+            <h4>Best Estimate: With idle Electricity</h4>
+          <table style="border: 1px solid black">
+              <tr>
+                <td>Idle Electricity Consumption(kWh)</td>
+                <td><input type="text" ></td>
+              </tr>
+              <tr>
+                <td>Active Electricity Consumption(kWh)</td>
+                <td><input type="text" ></td>
+              </tr>
+              <tr>
+                <td>Heating/Cooling Energy(kWh)</td>
+                <td><input type="text" ></td>
+              </tr>
+              <tr>
+                <td>Total Energy Consumption(kWh)</td>
+                <td><input type="text" ></td>
+              </tr>
+            </table>
 
-            <!-- Section 1.3 -->
-            <div>
-                <h2>1.3 Water</h2>
-                <table style="width:100%">
-  		<tr>
-    			<td></td>
-   		        <td>Purification Type</td>
-    			<td>Quantity(L)</td>
-                </tr>
-  		<tr>
-    			<td>Water used for reaction</td>
-   		        <td><input type='text'></td
-    			<td><input type='text'></td>
-  		</tr>
-		<tr>
-    			<td>Cleaning/Washing Particle</td>
-   		        <td><input type='text'></td
-    			<td><input type='text'></td>
-  		</tr>
-		<tr>
-    			<td>Tool Washing water</td>
-   		        <td><input type='text'></td
-    			<td><input type='text'></td>
-  		</tr>
-		</table>
-            </div>
-            <div>
-            <table>
-  		<tr>
-    			<th>Column 1</th>
-    			<th>Column 2</th>
-  		</tr>
-  		<tr>
-   			 <td></td>
-    			 <td></td>
- 	        </tr>
-	        <tr>	
-    			<td></td>
-    			<td></td>
-  		</tr>
-  		<tr>
-      			<td></td>
-     			 <td></td>
-  </tr>
-  <tr>
-      <td></td>
-      <td></td>
-  </tr>
-</table>
-	    </div>
+    </div>
     </main>
 <body>
 

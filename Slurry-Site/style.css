@@ -1,6 +1,4 @@
-/* This will be used later on for formatting. For now only did the rough layout for the website*/
-
-/* Basic CSS for the website */
+/* CSS for the Slurry-Site project */
 
 /* Basic formatting for the body */
 body {
@@ -18,6 +16,8 @@ h1{
     font-family: Arial, sans-serif;
     margin-left: 220px; /* Adjusted to account for navbar width */
 }
+
+/*-------------------------------------------------------------------*/
 
 /* Formatting for the navbar */
 .navbar{
@@ -66,6 +66,8 @@ h1{
     background-color: hsl(0, 0%, 10%);
 }
 
+/*-------------------------------------------------------------------*/
+
 /* Formatting for the main content area */
 .maincontent{
     padding: 20px;
@@ -74,6 +76,28 @@ h1{
     margin-left: 220px; /* Adjusted to account for navbar width */
 }
 
+/* Formatting for the table. Makes it one table instead of multiple small ones.*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Formatting for table headers and cells */
+table, th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Formatting for the footer */
 footer{
     background-color: hsl(0, 0%, 25%);
     color: white;

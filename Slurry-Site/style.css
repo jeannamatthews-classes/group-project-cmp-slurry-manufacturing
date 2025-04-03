@@ -1,14 +1,5 @@
 /* CSS for the website */
 
-/* Basic formatting for the body */
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 95%);
-    margin-inline: auto; /* Center the body content */
-}
-
 /* Basic formatting for main stuff */
 header{
     background-color: #004e42 !important;
@@ -20,18 +11,27 @@ header{
     /* Ensures header is not hidden behind the navbar */
 }
 
+/* Basic formatting for the body */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    margin-inline: auto; /* Center the body content */
+}
+
 /* ---------------------------------------------------- */
 
 /* Formatting for the navbar */
 .navbar{
     background-color: #004e42 !important;
-    padding: 10px;
+    padding: 0px;
     font-family: Arial, sans-serif;
     font-size: 18px;
     position: fixed;
     top: 0;
     left: 0;
-    width: 180px;
+    width: auto;
     height: 100%;
 }
 
@@ -40,6 +40,7 @@ header{
     display: block;
     list-style-type: none;
     padding: 0;
+    margin: 26px 0; /* Margin for the list */
 }
 
 /* .navbar a formatting */
@@ -76,23 +77,40 @@ header{
     background-color: hsl(0, 0%, 95%);
     margin: 20px;
     margin-left: 220px; /* Adjusted to account for navbar width */
+    padding-bottom: 100px; /* Extra padding at the bottom for footer space */
 }
 
+/* Data Table formatting */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9; /* Light background for the table */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensures rounded corners are visible */
+    border: 2px solid #333; /* Border color for the table */
+    padding: 10px; /* Padding inside the table */
+    
+}
+th {
+    border: 2px solid #333;
+    background-color: #004e42;
+    color: #f9f9f9; /* Light text color for contrast */
+    padding: 10px;
+    text-align: left;
 }
 
-th, td {
-    border: 1px solid #ddd;
+td {
+    border: 2px solid #333; /* Border color for table cells */
     padding: 8px;
     text-align: left;
 }
 
-th {
-    background-color: #f2f2f2;
-    color: #333;
+.required {
+    background-color: gold; /* Color for required fields */
 }
 
 /* ---------------------------------------------------- */

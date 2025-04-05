@@ -68,7 +68,7 @@ The date above is when I wrote this timelog.
 
 ---
 
-Date: 5/525
+Date: 5/5/25
 
 Time (minutes): ~150 minutes
 

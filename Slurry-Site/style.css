@@ -1,15 +1,20 @@
 /* CSS for the website */
 
 /* Basic formatting for main stuff */
-header{
+header {
     background-color: #004e42 !important;
     text-align: center;
     color: white;
     font-family: Arial, sans-serif;
-    padding: 20px; /* Padding around the header */
-    margin-left: 200px; /* Adjusted to account for navbar width */
-    /* Ensures header is not hidden behind the navbar */
-    
+    font-size: 24px; /* Font size for the header */
+    font-weight: bold; /* Bold text for the header */
+    position: fixed; /* Keeps the header fixed at top */
+    top: 0;
+    width: 100vw; /* Full screen width */
+    z-index: 800;
+    padding: 20px;
+    margin: 0; /* ← FIX: remove margin that shifts it right */
+    box-sizing: border-box; /* ensures padding doesn’t mess with width */
 }
 
 h2, h3, h4, h5{
@@ -28,6 +33,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 95%);
     margin-inline: auto; /* Center the body content */
+    margin-top: 80px; /* Add margin equal to the header height */
 }
 
 div {
@@ -59,6 +65,7 @@ p {
     left: 0;
     width: auto;
     height: 100%;
+    z-index: 1000; /* Ensure the navbar stays above other elements */
 }
 
 /* .navbar ul formatting */
@@ -116,9 +123,9 @@ table {
     color: #333;
     background-color: #f9f9f9; /* Light background for the table */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    overflow: hidden; /* Ensures rounded corners are visible */
     border: 2px solid #333; /* Border color for the table */
-    padding: 10px; /* Padding inside the table */    
+    padding: 10px; /* Padding inside the table */
+    table-layout: auto  
 }
 
 th {

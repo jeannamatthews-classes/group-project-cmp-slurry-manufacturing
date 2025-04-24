@@ -18,7 +18,7 @@ There is no particular sequence to what is done, but it was done.
 - Discussed about UML Diagrams
 
 1. Met with user to discuss more in-depth as to what the website might need. (~60 minutes)
-3. Research about what CMP Slurry is. (~90 minutes)
+2. Research about what CMP Slurry is. (~90 minutes)
 
    - This work/research which I did is in the "GANTT Chart Tasks" doc
 
@@ -68,7 +68,7 @@ The date above is when I wrote this timelog.
 
 ---
 
-Date: 5/5/25
+Date: 4/5/25
 
 Time (minutes): ~150 minutes
 
@@ -86,3 +86,12 @@ I began working on some of the tabs and finished it. During this process, I also
 * I worked on creating the home tab.
 * I made some adjustments to all other tabs in where if there are tables that are too long, it will become scrollable. Cause in the input tab, the table containers are larger then expected, hence I added scrollers, that way when the screen it smaller, it would still function correctly.
 * I am currently still working on the help tab.
+
+---
+
+Date: 4/18/25
+
+Time (minutes): ~90 minutes
+
+Description:
+I worked on the presentation slides that will be used during demo day. This included decription on what our project was about and the purpose of the website.

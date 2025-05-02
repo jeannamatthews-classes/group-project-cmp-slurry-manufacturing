@@ -24,4 +24,6 @@ DATE, TIME(MINUTES),DESCRIPTION
 20250416,5,'Uploaded my progress to github CMP 1.5, my php, JS changes'
 20250417,60,'Met as a group on zoom. Helped Lia get XAMP SQL working, Showed Jason my progress on site'
 20250421, 60, 'Spent time in group discussing project presentation and who's part. Jason intro, Lia XAMPP, Me demo'
+20250421, 1, 'Sent group email saying what they could contribte if they still wanted to contribute, no response'
 20250422, 6, 'Demo day, wish i was able to present '
+20250428, 1, 'Reminded group again, if you haven't submitted anything there is still time. No response'
